@@ -79,9 +79,6 @@ else if (searchType === "concert-search") {
 else if (searchType === "spotify-search") {
     spotifySearch(input);
 }
-else if (searchType === "movie-this") {
-    search(input);
-}
 else {
     console.log("No Search Selection Made");
 }
