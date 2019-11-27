@@ -12,7 +12,7 @@ function movieSearch(input) {
     console.log("Searching OMDB...\n==============RESULT==============")
     var movieQuery = input || "the prestige";
 
-    axios.get("https://www.omdbapi.com/?t=" + movieQuery + "&y=&plot=short&apikey=trilogy").then(function(response) {
+    axios.get("https://www.omdbapi.com/?t=" + movieQuery + "&y=&plot=short&apikey=15d2c100").then(function(response) {
         var jsonData = response.data;
         if (jsonData.title === undefined) {
             console.log("Please try again... (Movie title undefined)")
