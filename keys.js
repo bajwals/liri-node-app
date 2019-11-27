@@ -1,4 +1,4 @@
-console.log('keys.js is loaded');
+console.log(`=====Succesfully Loaded keys.js file=====`);
 
 exports.spotify = {
     id: process.env.SPOTIFY_ID,
